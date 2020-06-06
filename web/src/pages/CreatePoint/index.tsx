@@ -52,7 +52,7 @@ const CreatePoint = () => {
     api.get('items').then(response => {
       setItems(response.data);
     })
-    
+
   }, []);
 
   useEffect(() => {
@@ -106,10 +106,10 @@ const CreatePoint = () => {
     }
   }
 
-  async function handleSubmit(event: FormEvent){
+  async function handleSubmit(event: FormEvent) {
     event.preventDefault();
 
-    const {name, email, whatsapp} = formData;
+    const { name, email, whatsapp } = formData;
     const uf = selectedUf;
     const city = selectedCity;
     const [latitude, longitude] = selectPosition;
@@ -236,17 +236,16 @@ const CreatePoint = () => {
             <span>Selecione um ou mais itens abaixo</span>
           </legend>
           <ul className="items-grid">
-            {
-              items.map(item =>(
-                <li
-                  key={item.id}
-                  className={selectedItems.includes(item.id) ? 'selected' : ''}
-                  onClick={() => handleSelectItem(item.id)}>
-                  <img src={item.image_url} alt={item.title} />
-                  <span>{item.title}</span>
-                </li>
-              ))
-            }
+            {items.map((item) => (
+              <li
+                key={item.id}
+                className={selectedItems.includes(item.id) ? 'selected' : ''}
+                onClick={() => handleSelectItem(item.id)}
+              >
+                <img src={item.image_url} alt={item.title} />
+                <span>{item.title}</span>
+              </li>
+            ))}
           </ul>
         </fieldset>
 

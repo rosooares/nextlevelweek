@@ -33,6 +33,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
    ><p style="margin-left:5em">🔮  &nbsp;&nbsp;&nbsp;&nbsp;./web - Interface web em RectJS e TypeScript </p>
    ><p style="margin-left:5em">📱 &nbsp;&nbsp;&nbsp;&nbsp;./mobile - Interface mobile em ReactNative, TypeScript e Expo </p>
 
+## 🔖 Layout
+To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/?viewer=1&node-id=).
 _________
 
 ### ✨ Sobre o projeto:
@@ -74,6 +76,19 @@ $ npm knex:seed
 $ npm dev
 ```
 Agora importe o arquivo Insomnia-All_2020-06-03.json para o seu Insomia e faça os testes.
+
+Acesse a pasta web e faça as instalações:
+
+```
+# Acesse a pasta do backend
+$ cd web/
+
+# Instale as dependencias
+$ npm install
+
+# Rode 
+$ npm start
+```
 _________
 
 Agradecimentos [Rocketseat](https://rocketseat.com.br/)
