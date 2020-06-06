@@ -73,14 +73,16 @@ $ npm knex:migrate
 $ npm knex:seed
 
 # Rode a API
-$ npm dev
+$ npm run dev
+
+# running on port 3333
 ```
 Agora importe o arquivo Insomnia-All_2020-06-03.json para o seu Insomia e faça os testes.
 
 Acesse a pasta web e faça as instalações:
 
 ```
-# Acesse a pasta do backend
+# Acesse a pasta do frontend
 $ cd web/
 
 # Instale as dependencias
@@ -88,11 +90,33 @@ $ npm install
 
 # Rode 
 $ npm start
+
+# running on port 3000
+```
+
+Acesse a pasta app-mobile e faça as instalações:
+
+```
+# Acesse a pasta do mobile
+$ cd app-mobile/
+
+# Instale as dependencias
+$ npm install
+
+# Rode 
+$ npm start
+
+# A Expo será aberta, basta digitalizar o qrcode no terminal ou na página da exposição
+
+# Se houver algum problema com as fontes, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+# Você pode installar o aplicativo Expo para testar no celular
 ```
 _________
 
 Agradecimentos [Rocketseat](https://rocketseat.com.br/)
 
 👤 **Roberta Soares**
-* Github: [@Rosooares](https://github.com/rosooares)
-* Linkedin: [@Rosooares](https://www.linkedin.com/in/robertassoares/)
+* Github: [Roberta Soares](https://github.com/rosooares)
+* Linkedin: [Roberta Soares](https://www.linkedin.com/in/robertassoares/)
