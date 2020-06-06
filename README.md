@@ -64,7 +64,7 @@ Acesse a pasta server e faça as instalações:
 $ cd server/
 
 # Instale as dependencias
-$ npm
+$ npm install
 
 # Execute as migrations
 $ npm knex:migrate
